@@ -41,7 +41,7 @@ gem "omniauth-oauth2", "~> 1.7"
 gem "omniauth-twitch", "~> 1.2"
 gem "omniauth-rails_csrf_protection"
 gem "rack-cors", require: "rack/cors"
-gem "faraday", "~> 2.0"
+gem "faraday", "~> 2.12"
 
 # ページネーション
 gem "kaminari"
