@@ -107,7 +107,7 @@ GEM
     cssbundling-rails (1.4.1)
       railties (>= 6.0.0)
     date (3.4.0)
-    debug (1.9.2)
+    debug (1.10.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
     devise (4.9.4)
@@ -145,8 +145,8 @@ GEM
     hashie (5.0.0)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
-    io-console (0.7.2)
-    irb (1.14.1)
+    io-console (0.8.0)
+    irb (1.14.3)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jaro_winkler (1.6.0)
@@ -240,7 +240,8 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.5.9)
-    psych (5.1.2)
+    psych (5.2.2)
+      date
       stringio
     public_suffix (6.0.1)
     puma (6.4.3)
@@ -298,12 +299,12 @@ GEM
       activesupport (>= 6.1.5)
       i18n
     rbs (2.8.4)
-    rdoc (6.7.0)
+    rdoc (6.10.0)
       psych (>= 4.0.0)
     redis-client (0.22.2)
       connection_pool
     regexp_parser (2.9.2)
-    reline (0.5.10)
+    reline (0.6.0)
       io-console (~> 0.5)
     responders (3.1.1)
       actionpack (>= 5.2)
@@ -404,7 +405,7 @@ GEM
       sprockets (>= 3.0.0)
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
-    stringio (3.1.1)
+    stringio (3.1.2)
     thor (1.3.2)
     tilt (2.4.0)
     timeout (0.4.1)
