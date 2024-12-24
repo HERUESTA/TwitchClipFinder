@@ -11,8 +11,4 @@ class SearchController < ApplicationController
     # プレイリスト取得
     @playlists = Playlist.where(visibility: "public")
   end
-
-  def search_params
-    params.require(:q).permit(:streamer_streamer_name_cont)
-  end
 end

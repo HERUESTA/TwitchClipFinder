@@ -49,6 +49,12 @@ gem "omniauth-rails_csrf_protection"
 gem "rack-cors", require: "rack/cors"
 gem "faraday", "~> 2.0"
 
+# 動的OGP用gem
+gem "mini_magick"
+
+# SEO対策
+gem "meta-tags"
+
 # ページネーション
 gem "kaminari"
 
